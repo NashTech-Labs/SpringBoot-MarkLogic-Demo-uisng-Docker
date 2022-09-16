@@ -1,0 +1,16 @@
+version: '2'
+services:
+  ml8node1:
+    build: .
+    image: ml8:build
+    expose:
+      - "7997"
+      - "7998"
+      - "7999"
+    ports:
+      - "8000:8000"
+      - "8001:8001"
+      - "8002:8002"
+      - "8010:8010"
+    hostname: "ml1.local"
+    container_name: "ml1.local"
