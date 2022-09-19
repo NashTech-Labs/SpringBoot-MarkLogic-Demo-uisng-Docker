@@ -1,5 +1,5 @@
 # Spring Boot application using Marklogic
-This template is SpringBoot application using marklogic and docker. I am using :
+This template is SpringBoot application using Marklogic Server. I am using :
 - SpringBoot
 - Docker
 - Docker-compose
